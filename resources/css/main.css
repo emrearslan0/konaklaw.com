@@ -1,0 +1,181 @@
+.about-comp {
+  background: #e2e1e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-comp .about-top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+.about-comp .about-top .image {
+  width: 30%;
+}
+.about-comp .about-top .content:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.about-comp .about-top .content {
+  width: 70%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background: #fff;
+  padding: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+}
+.about-comp .about-top .content .about-h1 {
+  font-size: 30px;
+}
+.about-comp .about-top .content .about-h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  transition: 50ms;
+}
+
+.comment-comp {
+  background-color: black;
+}
+.comment-comp .comment-title:hover {
+  color: blueviolet;
+}
+.comment-comp .form-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment-comp .comment-title {
+  font-size: 10vw;
+  color: #507f54;
+  font-weight: lighter;
+  padding-left: 30px;
+  transition: 2s;
+}
+.comment-comp .container .form {
+  color: #507f54;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.comment-comp .container .form .form-group {
+  margin-bottom: 1rem;
+}
+.comment-comp .container .form .form-group .form-control {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.comment-comp .container .form .form-group .submitbutton {
+  color: black;
+  background-color: white;
+}
+.comment-comp .container .form .form-group .submitbutton:hover {
+  color: white;
+  background-color: #507f54;
+}
+.comment-comp .container .form-comment .form-h1 {
+  color: white;
+}
+.comment-comp .container .form-comment .incomingcomment {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 90px;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+.comment-comp .container .form-comment .incomingcomment .deletecomment {
+  display: flex;
+  float: right;
+  height: 100%;
+  color: black !important;
+  border-radius: 12px;
+  background-color: #507f54;
+  padding-right: 4px;
+}
+.comment-comp .container .form-comment .incomingcomment .deletecomment:hover {
+  background-color: red;
+  color: white;
+}
+.comment-comp .container .form-comment .incomingcomment .peoplename {
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  padding-top: 8px;
+  color: white;
+}
+.comment-comp .container .form-comment .incomingcomment .commentcontent {
+  font-size: 20px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.full-page {
+  width: 100vw;
+  height: 100vh;
+}
+.sticky {
+  z-index: 99999;
+  opacity: 0.9;
+  position: fixed !important;
+  width: 100%;
+}
+.navbar {
+  background-color: black !important;
+}
+
+.header-comp {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-comp .header-title .hello-title {
+  font-size: 10vw;
+  color: #507f54;
+  font-weight: lighter;
+  transition: 2s;
+}
+.header-comp .header-title .welcome-title {
+  font-size: 5vw;
+  font-weight: lighter;
+  color: white;
+}
+.header-comp .header-title .hello-title:hover {
+  color: blueviolet;
+}
+
+.navbar .container .navbar-brand:hover {
+  color: #507f54;
+}
+
+.project-comp {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-comp .project-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #507f54;
+}
+.project-comp .project-title .h1-project {
+  font-size: 10vw;
+  font-weight: lighter;
+  transition: 2s;
+}
+.project-comp .project-title .h1-project:hover {
+  color: blueviolet;
+}
+
